@@ -1,0 +1,28 @@
+<html ng-app="weatherModule">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Angular Weather</title>
+
+        <!-- Scripts -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/lodash/dist/lodash.js"></script>
+        <script src="bower_components/restangular/dist/restangular.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/angular-ui-select/dist/select.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+        <script src="angularWeatherDirective/angular-weather.directive.js"></script>
+
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <angular-weather city-name="tehran"></angular-weather>
+    </body>
+</html>
